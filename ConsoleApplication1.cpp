@@ -26,9 +26,9 @@ int main(int argc, char* argv[])
 	do
 	{
 		cout << " Ne yapmak istiyorsunuz ? " << endl;
-		cout << " 1) Hasta kayıt ekleme " << endl;
-		cout << " 2) Randevu kayıt " << endl;
-		cout << " 3) programdan çıkış " << endl;
+		cout << " 1) Hasta kayit ekleme " << endl;
+		cout << " 2) Randevu kayit " << endl;
+		cout << " 3) programdan cikis " << endl;
 		cin >> secim;
 	} while (secim != 1 && secim != 2 && secim != 3);
 	if (secim == 1)
